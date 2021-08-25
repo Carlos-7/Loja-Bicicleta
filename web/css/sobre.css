@@ -1,0 +1,78 @@
+/* sobre introdução */
+.sobre_introducao {
+    margin-top: 80px;
+    width: 100%;
+    background: url("../img/bg-sobre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+}
+
+.sobre_introducao h1 {
+    margin-top: 40px;
+}
+
+.sobre_introducao p {
+    color: #fff;
+    text-align: center;
+}
+
+.sobre_introducao h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 10px auto 14px auto;
+    background: #fff;
+}
+
+
+/* sobre missão e valores */
+
+.sobre_missao {
+    margin-top: 77px;
+}
+
+.sobre_missao .subtitulo_24p {
+    text-align: left;
+}
+
+.sobre_missao h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 8px 0 12px 0;
+    background: #000;
+}
+
+.sobre_missao .missao p {
+    max-width: 400px;
+}
+
+
+/* quebra */
+
+.sobre_quebra .container {
+    margin-top: 50px;
+    background: url("../img/equipe-bikcraft.jpg");
+    width: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+}
+
+
+/* qualidade  */
+
+.qualidade {
+    margin-top: 62px;
+}
+
+
+/* sobre foot */
+
+.footer {
+    margin-top: 56px;
+}
