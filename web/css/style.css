@@ -1,4 +1,4 @@
-body, ul, li, a{
+body, ul, li, a, h1, p{
   text-decoration: none;
   list-style: none;
   margin: 0px;
@@ -51,26 +51,47 @@ header nav a{
   padding: 20px;
 }
 
-/* main */
+/* introdução */
+/* .introducao .introducao_container{
+  width: 960px;
+  margin: 0 auto;
+} */
+
 .introducao{
   width: 100%;
   background: url("../img/bg-intro.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
 }
 
 .introducao h1{
   padding: 139px 0 0 0;
   font-size: 48px;
-  
+  font-weight: bold;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
 }
 
 .introducao p{
+  font-size: 18px;
+  font-style: italic;
   color: #fff;
   text-align: center;
+  padding-bottom: 220px;
 }
+
+.introducao h1::after{
+  content: "";
+  display: block;
+  width: 15px;
+  height: 4px;
+  background: #fff;
+  margin: 13px auto;
+}
+
+/* sobre */
+
 
