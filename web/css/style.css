@@ -1,4 +1,4 @@
-body, ul, li, a, h1, p{
+body, ul, li, a, h1, h2, p{
   text-decoration: none;
   list-style: none;
   margin: 0px;
@@ -29,6 +29,7 @@ header .menu_container::before, .menu_container::after{
 
 header .menu_logo{
   display: block;
+  margin: 10px 0 0 0;
   float: left;
 }
 
@@ -52,11 +53,6 @@ header nav a{
 }
 
 /* introdução */
-/* .introducao .introducao_container{
-  width: 960px;
-  margin: 0 auto;
-} */
-
 .introducao{
   width: 100%;
   background: url("../img/bg-intro.jpg");
@@ -80,7 +76,7 @@ header nav a{
   font-style: italic;
   color: #fff;
   text-align: center;
-  padding-bottom: 220px;
+  padding-bottom: 280px;
 }
 
 .introducao h1::after{
@@ -93,5 +89,33 @@ header nav a{
 }
 
 /* sobre */
+.sobre h2{
+  padding: 70px 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sobre_container::before, .sobre_container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.sobre_container{
+  width: 960px;
+  margin: auto;
+}
+
+.sobre .sobre_item{
+  width: 460px;
+  margin: 0 10px;
+  float: right;  
+}
+
+.sobre .sobre_item image{
+  width: 100%;
+  display: block;
+}
+
 
 
