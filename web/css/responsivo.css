@@ -1,0 +1,81 @@
+@media screen and (min-width:788px ) and (max-width: 979px){
+/* header */
+  header .menu_container{
+    max-width: 780px;
+  }
+
+ /* sobre */
+  .sobre_container{
+    width: 780px; 
+  }
+
+  .sobre .sobre_item{
+    width: 370px;
+    margin: 0 10px;
+    float: left;  
+  }
+
+
+ /* produto  */
+  .produto_container{
+    width: 780px;
+  }
+
+  .produto_container .desc_produto{
+    width: 240px;
+  }
+
+  .produto_container .desc_produto p{
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 6px;
+  }
+  
+.local_container{
+  width: 780px;
+}
+
+.local_container .img_local{
+  width: 370px;
+}
+
+.local_container .endereco{
+  width: 370px
+}
+
+.assine_container{
+  width: 780px;
+}
+
+.assine_container .texto_assine{
+  width: 370px;
+}
+
+.assine_container .form_email{
+  width: 370px;
+}
+
+.assine_container h2{
+  font-size: 28px;
+  text-align: left;
+}
+
+.assine_container input{
+  width: 220px;
+}
+
+.footer_container{
+  width: 780px;
+}
+
+.footer_container .endereco_footer{
+  width:630px
+}
+
+.footer_container .logo_footer{
+  width: 110px;
+}
+
+
+
+}
